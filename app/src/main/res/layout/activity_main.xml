@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/animalImageView"
+        android:layout_marginBottom="-24dp"
+        android:gravity="center"
+        android:text="Question"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/animalImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="62dp"
+        android:scaleType="fitCenter" />
+
+
+    <Button
+        android:id="@+id/optionAButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/animalImageView"
+        android:layout_marginTop="31dp"
+        android:text="Option A" />
+
+    <ImageView
+        android:id="@+id/animalImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="398dp"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/optionBButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionAButton"
+        android:layout_marginTop="26dp"
+        android:text="Option B" />
+
+</RelativeLayout>
